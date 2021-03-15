@@ -1,0 +1,176 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* --------RESET CSS STYLES */
+
+/* nav start------------- */
+main{
+    max-width: 100%;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+main aside {
+    width: 23%;
+    height: 980px;
+    border: 1px solid blue;
+    background-color: rgb(236,82,63);
+    position: fixed;
+    margin-left: 0;
+}
+
+main aside .nav_left .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+}
+
+main aside .logo{
+    display: flex;
+    align-items: center;
+}
+main aside .logo h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+main aside .nav_left .home{
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+} 
+
+
+/* ----- */
+
+main aside .nav_left .bottom{
+    margin-top: 500px;
+    padding: 20px;
+}
+main aside .nav_left .bottom .full_stack{
+    font-size: 35px;
+    color: white;
+    line-height: 40px;
+    margin-left: 25px; 
+}
+
+main aside .nav_left .bottom .little_para{
+    font-size: 20px;
+    margin-left: 25px; 
+    text-align: left;
+    /* border: 1px solid black; */
+    margin-top: 25px;
+    line-height: 1.2;
+}
+
+main aside .nav_left .bottom .navigations{
+    
+    margin-top: 50px;
+    margin-left: 75px;
+}
+
+main aside .nav_left .bottom .navigations a{
+    font-size: 20px;
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 50%;
+    margin: 7px;
+    
+}
+
+
+
+
+/* -----------------------section start */
+section{
+    width: 70%;
+    margin-left: 550px;
+    /* border: 1px solid green; */
+}
+section h1{
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 55px;
+}
+section .container {
+    width: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    margin-right: 0;
+    
+    
+    
+}
+section .container .left{
+    width: 50%;
+    padding: 20px;
+}
+section .container .left img{
+    width: 100%;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+/* ------------------ */
+
+section .container .right{
+    width: 50%;
+    padding: 20px;
+}
+section .container .right img{
+    width: 100%;
+    margin: 10px;
+    border: 2px solid black;
+}

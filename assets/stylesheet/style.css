@@ -1,0 +1,509 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* --------RESET CSS STYLES */
+
+/* ----------CUSTOME STYLES */
+header{
+	z-index: 1;
+	width: 100%;
+	/* position: fixed; */
+	margin: auto;
+	margin-top: 25px;
+	
+	
+}
+
+header .navigations{
+	text-align: center;
+	position: relative;
+	z-index: 10;
+}
+header .navigations a i{
+	background-color: white;
+	border-radius: 50%;
+	padding: 10px;
+	color: black;
+	margin: 3px;
+	margin-bottom: 25px;
+}
+header .middle_align{
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+header .header{
+	width: 70%;
+	height: 100px;
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: white;
+	position: fixed;
+	z-index: 100;
+}
+
+
+
+header .header .left{
+	display: flex;
+	align-items: center;
+}
+
+header .header .left h2{
+	font-size: 40px;
+	margin-left: 30px;
+	font-weight: bold;
+}
+
+header .header .navigations a{
+	margin: 23px;
+	text-decoration: none;
+	font-size: 18px;
+	color: grey;
+	/* border: 1px solid black; */
+	padding: 36px 0px;
+}
+header .header .navigations .color_orange{
+	border-top: 5px solid orangered;
+}
+/* ----------------------------------------- */
+
+body{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.section_1 .banner{
+	width: 100%;
+	position: relative;
+	top: -100px;
+	z-index: 0;
+
+}
+.section_1 .banner img{
+	width: 100%;
+	/* opacity: 95%; */
+	filter: blur(1.5px);
+	z-index: -3;
+}
+
+.section_1 .brand_name{
+	top: -450px;
+	text-align: center;	
+	position: relative;
+}
+
+.section_1 .brand_name hr{
+	width: 400px;
+	background-color: white;
+}
+
+.section_1 .brand_name h1{
+	font-size: 35px;
+	color: white;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.section_1 .brand_name p{
+	font-size: 18px;
+	color: black;
+	margin-top: 20px;
+}
+.section_1 .brand_name .design_btn{
+	width: 130px;
+	padding: 15px 0px ;
+	/* border: 1px solid black; */
+	margin: auto;
+	margin-top: 30px;
+	color: white;
+	background-color: rgb(236,82,63);
+	font-weight: bold;
+}
+
+/* section circles start------------------------- */
+.circles{
+	margin-top: -230px;
+}
+.circles .page_navigations{
+	display: flex;
+	justify-content: center;
+	
+}
+
+
+.circles .page_navigations .circle{
+	padding: 5px;
+	border-radius: 50%;
+	/* border: 1px solid black; */
+	background-color: black;
+	opacity: 65%;
+	margin: 5px;
+	z-index: 10;
+	
+}
+.circles .page_navigations .icon_color{
+	background-color: black;
+	opacity: 100%;
+}
+
+/* ----------section-2 start */
+
+.section_2{
+	width: 70%;
+	margin: auto;
+	margin-top: 55px;
+	/* border: 1px solid red; */
+}
+
+.section_2 .our_services{
+	text-align: center;
+	/* margin-top: 200px; */
+	
+}
+
+.section_2 .our_services h2{
+	font-size: 25px;
+	/* border-bottom: 1px solid black; */
+	display: inline-block;
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+
+.section_2 .navigations{
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+	margin-top: 25px;
+}
+
+.section_2 .navigations .icons{
+	padding: 130px 100px;
+	/* border: 1px solid red; */
+	font-size: 55px;
+	background-color: rgb(92,189,157);
+	color: white;
+	margin-top: 25px;
+}
+
+.section_2 .navigations  .second{
+	background-color: rgb(230,127,49);
+}
+.section_2 .navigations  .third{
+	background-color: rgb(57,152,219);
+}
+.section_2 .navigations  .fourth{
+	background-color: rgb(104,205,115);
+}
+
+
+
+/* --------------------------- */
+
+.section_3{
+	width: 70%;
+	margin: auto;
+	margin-top: 155px;
+	/* border: 1px solid black; */
+}
+
+.section_3 .our_protfolio{
+	text-align: center;
+	/* margin-top: 200px; */
+}
+
+.section_3 .our_protfolio h2{
+	font-size: 25px;
+	/* border-bottom: 1px solid black; */
+	display: inline-block;
+	padding-bottom: 5px;
+	margin-bottom: 25px;
+	font-weight: bold;
+}
+
+.section_3 .our_protfolio p{
+	margin-bottom: 20px;
+}
+
+
+.section_3 .navigations .icons{
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+}
+
+
+
+.section_3 .navigations .icons img{
+	width: 300px;
+	margin: 15px;
+}
+
+/* -------------------------- */
+
+
+.section_4{
+	width: 70%;
+	margin: auto;
+	margin-top: 155px;
+	/* border: 1px solid black; */
+}
+
+.section_4 .our_team{
+	text-align: center;
+	/* margin-top: 200px; */
+}
+
+.section_4 .our_team h2{
+	font-size: 25px;
+	/* border-bottom: 1px solid black; */
+	display: inline-block;
+	padding-bottom: 5px;
+	margin-bottom: 25px;
+	font-weight: bold;
+}
+
+.section_4 .our_team p{
+	margin-bottom: 20px;
+}
+
+.section_4 .our_team .design_skills h3{
+	font-size: 20px;
+	/* border-bottom: 1px solid black; */
+	display: inline-block;
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+.section_4 .navigations .members{
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+}
+
+
+
+.section_4 .navigations .members img{
+	width: 300px;
+	margin: 15px;
+	border-radius: 50%;
+}
+
+.section_4 .design_skills .data{
+	display: flex;
+	text-align: left;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-between;
+	margin-top: 55px;
+}
+
+.section_4 .design_skills .data  .para{
+	width: 60%;
+	font-size: 18px;
+	/* margin-top: 20px; */
+	/* border: 1px solid red; */
+	line-height: 1.5;
+}
+
+.section_4 .design_skills .graph{
+	width: 40%;
+	/* border: 1px solid red; */
+
+}
+
+.section_4 .design_skills .graph .box{
+	width: 75%;
+	height: 35px;
+	/* border: 1px solid red; */
+	margin: auto;
+	background-color: rgb(231,231,231);
+	margin-top: 20px;
+	margin-bottom: 13px;
+	margin-right: 25px ;
+	
+}
+
+.section_4 .design_skills .graph .color_filled{
+	width: 80%;
+	height: 25px;
+	background-color: rgb(234,81,62);
+	padding-top: 10px;
+	padding-left: 20px;
+	color: white;
+}
+
+.section_4 .design_skills .graph .html_css{
+	width: 70% ;
+}
+.section_4 .design_skills .graph .development{
+	width: 55% ;
+}
+.section_4 .design_skills .graph .marketing{
+	width: 65% ;
+}
+
+/* -------------section-5 */
+
+.section_5{
+	margin: auto;
+	margin-top: 155px;
+	width: 70%;	
+	text-align: center;
+	
+}
+
+
+
+.section_5 .contact h2{
+	font-size: 25px;
+	border-bottom: 1px solid black;
+	display: inline-block;
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+.section_5 address iframe{
+	width: 100%;
+	height: 300px;
+	margin-top: 25px;
+}
+
+
+
+.section_5  .contact .data{
+	text-align: left;
+	display: flex;
+	align-items: center;
+	/* border: 1px solid black; */
+	justify-content: space-between;
+	
+}
+
+.section_5 .contact .data .left{
+	width: 50%;
+	align-items: center;
+	line-height: 1.5;
+	
+	
+}
+
+.section_5 .contact .data .left p{
+	margin-top: 20px;
+}
+.section_5 .contact .data .left address{
+	margin-top: 20px;
+}
+.section_5 .contact .data .right{
+	width: 45%;
+	/* border: 1px solid red; */
+	
+	
+}
+.section_5 .contact .data .right .input_box{
+	width: 75%;
+	padding: 10px 10px;
+	color: grey;
+	border: 1px solid grey;
+	margin: auto;
+	margin-top: 20px;
+	margin-right: 0;
+	
+}
+
+.section_5 .contact .data .right .message{
+	height: 120px;
+}
+
+.section_5 .contact .data .right .input_btn{
+	text-align: center;
+	background-color: rgb(234,81,62);
+	color: white;
+}
+
+/* -----------------------Footer */
+
+footer .container{
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+footer .container .back_to_top{
+	width: 120px;
+	padding: 10px 0;
+	border: 1px solid rgb(234,81,62);
+	background-color: rgb(234,81,62);
+	text-align: center;
+	color: white;
+}
+
+
+footer .container .back_to_top a{
+	text-decoration: none;
+	color: white;
+}
+
+
+
