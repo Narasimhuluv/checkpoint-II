@@ -135,7 +135,7 @@ header .header .navigation_links .color_orange{
 	border-top: 5px solid orangered;
     color: #EC523F;
 }
-/* ----------------------------------------- */
+/* ---------------main-------------------------- */
 
 body{
 	font-family: 'Ubuntu', sans-serif;
@@ -153,8 +153,6 @@ body{
 	opacity: 45%;
 	z-index: -3;
 }
-
-/* ----------------------------------------------- */
 
  .brand_name{
 	text-align: center;	
@@ -184,7 +182,6 @@ body{
  .brand_name .design_btn{
 	width: 130px;
 	padding: 15px 0px ;
-	/* border: 1px solid black; */
 	margin: auto;
 	margin-top: 30px;
 	color: white;
@@ -202,7 +199,6 @@ body{
 .circles .page_navigations .circle{
 	padding: 5px;
 	border-radius: 50%;
-	/* border: 1px solid black; */
 	background-color: black;
 	opacity: 65%;
 	margin: 5px;
@@ -215,8 +211,6 @@ body{
 }
 
 /* ----------section-2 start */
-
-
 
 .container{
 	width: 100%;
@@ -232,7 +226,6 @@ body{
 
 .heading{
 	font-size: 25px;
-	/* border-bottom: 1px solid black; */
 	display: inline-block;
 	margin-bottom: 15px;
 	font-weight: bold;
@@ -258,7 +251,6 @@ body{
 	width: 22%;
 	height: 200px;
 	padding-top: 100px;
-	/* border: 1px solid red; */
 	font-size: 55px;
 	background-color: rgb(92,189,157);
 	color: white;
@@ -275,7 +267,7 @@ body{
 	background-color: rgb(104,205,115);
 }
 
-/* -------------------------- */
+/* ---------------------team members----- */
 
  .team_member_images img{
     width: 22%;
@@ -305,7 +297,6 @@ body{
 	line-height: 1.5;
     text-align: left;
 	margin-top: 20px;
-	/* border: 1px solid red; */
 }
 
 .color_red{
@@ -347,7 +338,7 @@ body{
 	width: 65% ;
 }
 
-/* -------------section-5 */
+/* -------------contact */
 
  address iframe{
 	width: 100%;
@@ -364,8 +355,8 @@ body{
 
  .contact .data .right{
 	width: 45%;
-	/* border: 1px solid red; */	
 }
+
  .contact .data .right .input_box{
 	width: 75%;
 	padding: 10px 10px;
