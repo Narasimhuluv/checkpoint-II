@@ -58,9 +58,9 @@ main{
 }
 
 main aside {
-    width: 23%;
+    max-width: 400px;
     height: 980px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     background-color: rgb(236,82,63);
     position: fixed;
     margin-left: 0;
@@ -88,7 +88,14 @@ main aside .nav_left .home{
     color: white;
     padding: 10px 20px;
     display: inline-block;
+    position: fixed;
+    left: 280px;
 } 
+
+.home a{
+    text-decoration: none;
+    color: white;
+}
 
 
 /* ----- */
@@ -137,8 +144,8 @@ main aside .nav_left .bottom .navigations a{
 
 /* -----------------------section start */
 section{
-    width: 70%;
-    margin-left: 550px;
+    max-width: 70%;
+    margin-left: 480px;
     /* border: 1px solid green; */
 }
 section h1{
@@ -157,7 +164,7 @@ section .container {
     
 }
 section .container .left{
-    width: 50%;
+    max-width: 50%;
     padding: 20px;
 }
 section .container .left img{
@@ -169,7 +176,7 @@ section .container .left img{
 /* ------------------ */
 
 section .container .right{
-    width: 50%;
+    max-width: 50%;
     padding: 20px;
 }
 section .container .right img{

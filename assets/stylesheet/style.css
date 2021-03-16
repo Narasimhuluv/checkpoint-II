@@ -120,7 +120,7 @@ header .header .left h2{
 
 .header .navigation_links{
    
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     margin-right: 10px;
     text-align: right;
