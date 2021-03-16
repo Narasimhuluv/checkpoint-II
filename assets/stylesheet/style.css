@@ -119,10 +119,11 @@ header .header .left h2{
 }
 
 .header .navigation_links{
-    width: 65%;
-    margin-right: 30px;
+   
+    border: 1px solid red;
     display: flex;
-    justify-content: center;
+    margin-right: 10px;
+    text-align: right;
     
 }
 
